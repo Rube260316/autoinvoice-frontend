@@ -1,0 +1,17 @@
+<header class="bg-white shadow-md">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ul class="hidden md:flex space-x-6">
+            <li><a routerLink="/" class="text-gray-700 hover:underline"> Home </a></li>
+            <li><a routerLink="/about-us" class="text-gray-700 hover:underline">About us</a></li>
+            <li><a routerLink="/services" class="text-gray-700 hover:underline">Services</a></li>
+            
+            <li><a href="https://us-east-1pdxlafqqv.auth.us-east-1.amazoncognito.com/login?client_id=29tk0aeiorv1u7st852j7fbh9q&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fauthorization_code" class="text-gray-700 hover:underline">Log in / Sign in</a></li>
+        
+            
+            
+        </ul>
+        <div>
+            <button (click)="login()" class="text-gray-900">test</button>
+        </div>
+    </nav>
+</header>
